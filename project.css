@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.container{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 40px;
+    margin: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column ;
+    gap:40px;
+    font-size: 25px;
+    margin: 60px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.box h1{
+    text-align: left;
+}
+.box:hover{
+    box-shadow: 1px 1px 3px 5px gray;
+    color:black;
+    background-color: rgb(221, 221, 221);
+}
+
+.proimg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.proimg img{
+box-shadow: 1px 1px 3px 5px gray;
+}
+
+.box ul{
+    margin-left: 20px;
+}
+ul li a{
+    color: white;
+}
+
+ul li a:hover{
+    color: yellowgreen;
+}
+.pro a{
+    color: blue
+}
+.pro a:hover{
+   text-decoration: underline;
+}

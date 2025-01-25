@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: black;
+    color:white
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 9vh;
+    background-color: #dba40e;
+    color:black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-inline: 18px;
+} 
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.left{
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.right{
+    font-size: 1.4rem;
+}
+
+section{
+    margin: 90px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftsection{
+    padding: 10px;
+    letter-spacing: 3px;
+    line-height: 3.4rem;
+    word-spacing: 2px;
+    height: 80%;
+    width: 45%;
+    font-size: 3rem;
+    color:white;
+    
+    
+}
+.leftsection span{
+    color:#dba40e;
+}
+
+.rigthsection{
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+}
+hr{
+    border:0;
+    background: #dba40e;
+    height: 1px;
+    margin: 80px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+.box{
+    margin: 20px 0px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid transparent;
+    padding-inline: 40px;
+    gap:20px;
+}
+.box:hover{
+ box-shadow: 1px 1px 3px 4px white;
+}
+.content{
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+    height: 700px;
+    border: 1px solid white;
+    padding: 20px 60px;
+}
+label{
+    
+    font-size:40px;
+    font-weight: 400;
+    margin:5px;
+    
+}
+input{
+    font-size: 30px;
+    width:380px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    margin:5px;
+    border-radius: 10px;
+    border: none;
+}
+form h1{
+    font-size:60px;
+    margin: 20px;
+}
+.contact{
+    display:flex;
+    flex-direction: column ;
+    align-items: left;
+}
+button{
+    font-size: 20px;
+    width:100px;
+    height: 50px;
+    padding:10px;
+    margin:30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+button:hover{
+    background-color: goldenrod;
+}
+.copy{
+    width:99%;
+    background-color: #dba40e;
+    font-size: 31px;
+    padding:10px;
+    text-align: center;
+}
+.home{
+    width:100vw;
+    text-align: center;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.home a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
